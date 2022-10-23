@@ -15,6 +15,6 @@ function htopics {
 
 # Ethereum coin we want to start remixd in the correct directory
 function ecoin {
-  Set-Location -Path "D:\Program Files\Github\EthereumCoin"
+  Set-Location -Path "D:\Program Files\Github\EthereumCoin\contracts"
   remixd
 }
